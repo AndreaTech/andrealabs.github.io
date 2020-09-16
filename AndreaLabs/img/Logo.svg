@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="126" viewBox="0 0 540 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b2b2b;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 80px;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke: #2b2b2b;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        filter: url(#Linea_10);
+      }
+
+      .cls-6 {
+        filter: url(#Linea_9);
+      }
+
+      .cls-7 {
+        filter: url(#aLabs);
+      }
+
+      .cls-8 {
+        filter: url(#Andre);
+      }
+    </style>
+    <filter id="Andre" x="0" y="0" width="291" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#2b2b2b"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="aLabs" x="263" y="0" width="277" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Linea_9" x="58.5" y="96" width="232" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-3"/>
+      <feFlood flood-color="#2b2b2b"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Linea_10" x="263.5" y="96" width="232" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Raggruppa_5" data-name="Raggruppa 5" transform="translate(-683.5 -80.5)">
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 683.5, 80.5)">
+      <text id="Andre-2" data-name="Andre" class="cls-1" transform="translate(15.5 87.5)"><tspan x="0" y="0">Andre</tspan></text>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 683.5, 80.5)">
+      <text id="aLabs-2" data-name="aLabs" class="cls-2" transform="translate(276.5 87.5)"><tspan x="0" y="0">aLabs</tspan></text>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 683.5, 80.5)">
+      <line id="Linea_9-2" data-name="Linea 9" class="cls-3" x2="205" transform="translate(72 108)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 683.5, 80.5)">
+      <line id="Linea_10-2" data-name="Linea 10" class="cls-4" x2="205" transform="translate(277 108)"/>
+    </g>
+  </g>
+</svg>
