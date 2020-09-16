@@ -5,7 +5,7 @@ body {
 /* Desktop Version */
 @media (min-width: 950px){
     .header{
-        background-image: url('/img/Background.png');
+        background-image: url('https://andreatech.github.io/andrealabs.github.io/img/Background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
