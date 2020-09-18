@@ -1,4 +1,4 @@
-https://andreatech.github.io/andrealabs.github.io/img/polli.pngbody {
+body {
     margin: 0%;
 }
 
@@ -24,10 +24,43 @@ https://andreatech.github.io/andrealabs.github.io/img/polli.pngbody {
         color: rgb(43,43,43);
     }
 
-    #navbar-text {
-        text-decoration: underline;
+    /* Navbar animation */
+    #navitem-1, #navitem-2{
+        transition: 0.2s all ease-out !important;
+        border-radius: 1px;
     }
 
+    #navitem-1:hover{
+        background-color: rgb(43,43,43);
+        transform: scale(1.1);
+    }
+
+    #nav-text1{
+        text-decoration: underline;
+        color: rgb(43,43,43);
+        transition: 0.2s all ease-out;
+    }
+
+    #nav-text1:hover {
+        color: white;
+    }
+
+    #navitem-2:hover {
+        background-color: white;
+        transform: scale(1.1) !important;
+    }
+
+    #nav-text2{
+        text-decoration: underline;
+        color: white;
+        transition: 0.2s all ease-out;
+    }
+
+    #nav-text2:hover{
+        color: rgb(43,43,43);
+    }
+
+    /* Navbar space */
     #navcol-1 {
         margin-right: 20px;
     }
