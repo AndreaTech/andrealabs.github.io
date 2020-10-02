@@ -4,6 +4,9 @@ body {
 
 /* Desktop Version */
 @media (min-width: 950px){
+
+    /* Desktop Components */
+
     .header{
         background-image: url('https://andreatech.github.io/andrealabs.github.io/img/Background.png');
         background-size: cover;
@@ -81,11 +84,21 @@ body {
         width: 410px;
         margin-top: 5%;
     }
+
+    /* Mobile Components */
+
+    .logo-mobile {
+        display: none !important;
+    }
 }
 
 
-/* mobile version */
+/* Mobile Version */
+
 @media (max-width: 948px){
+
+    /* Mobile Components */
+
     .header {
         background-color:  rgb(43,43,43);
         background-image: none;
@@ -93,7 +106,25 @@ body {
         height: 100vh;
     }
 
+    .logo-mobile {
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        color: white;
+    }
+
+    /* Desktop Components */
+
     .image {
         display: none;
+    }
+
+    .logo {
+        display: none !important; 
+    }
+
+    .social-bar {
+        display: none !important;
     }
 }
