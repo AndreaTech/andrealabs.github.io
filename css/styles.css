@@ -65,11 +65,24 @@ body {
 
     /* Navbar space */
     #navcol-1 {
-        margin-right: 20px;
+        margin-right: 7vh;
     }
 
     #navcol-2 {
-        margin-left: 20px;
+        margin-left: 7vh;
+    }
+    
+    #navitem-1 {
+        margin-left: 7vh;
+    }
+
+    #navitem-2 {
+        margin-right: 7vh;
+    }
+
+    .logo{
+        width: 60vh;
+        height: auto;
     }
 
     .image {
