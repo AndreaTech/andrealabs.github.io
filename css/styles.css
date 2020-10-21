@@ -80,8 +80,8 @@ body {
         border-color: rgb(43,43,43);
         border-radius: 100%;
         border: 2px solid;
-        width: 30%;
-        height: 30%;
+        width: 50vh !important;
+        height: 50vh !important;
         margin-top: 5%;
     }
 
